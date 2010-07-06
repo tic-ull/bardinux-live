@@ -1,0 +1,6 @@
+#!/bin/bash
+
+HOOK_NAME=$(basename $0)
+echo "Executing local hook ${HOOK_NAME}..."
+
+find binary/ -name .svn | xargs rm -rf

@@ -1,0 +1,74 @@
+# config/chroot - options for live-helper(7), chroot stage
+
+# $LH_CHROOT_FILESYSTEM: set chroot filesystem
+# (Default: squashfs)
+LH_CHROOT_FILESYSTEM="squashfs"
+
+# $LH_UNION_FILESYSTEM: set union filesystem
+# (Default: aufs)
+LH_UNION_FILESYSTEM="aufs"
+
+# $LH_VIRTUAL_ROOT_SIZE: set virtual-hdd filesystem size
+# (Default: 10000)
+LH_VIRTUAL_ROOT_SIZE="10000"
+
+# $LH_EXPOSED_ROOT: expose root as read only
+# (Default: false)
+LH_EXPOSED_ROOT="false"
+
+# $LH_HOOKS: set hook commands
+# (Default: empty)
+LH_HOOKS=""
+
+# $LH_INTERACTIVE: set interactive build
+# (Default: false)
+LH_INTERACTIVE="false"
+
+# $LH_KEYRING_PACKAGES: set keyring packages
+# (Default: empty)
+LH_KEYRING_PACKAGES="bardinux-keyring medibuntu-keyring"
+
+# $LH_LANGUAGE: set language to use
+# (Default: empty)
+# LH_LANGUAGE="es"
+
+# $LH_LINUX_FLAVOURS: set kernel flavour to use
+# (Default: autodetected)
+LH_LINUX_FLAVOURS="generic"
+
+# $LH_LINUX_PACKAGES: set kernel packages to use
+# (Default: autodetected)
+LH_LINUX_PACKAGES="linux linux-image" #linux-restricted-modules linux-backports-modules-lucid"
+
+# $LH_PACKAGES: set packages to install
+# (Default: empty)
+LH_PACKAGES="localepurge language-pack-es-base language-pack-gnome-es language-pack-es bardinux-desktop"
+
+# $LH_LIVE_PACKAGES: set live packages:
+# Packages not supposed to stay on an installed system
+# (Default: empty)
+LH_LIVE_PACKAGES="casper discover discover-data gparted jfsutils laptop-detect libdebconfclient0 libdebian-installer4 libdiscover2 libntfs10 localechooser-data ntfsprogs os-prober ubiquity ubiquity-casper ubiquity-frontend-kde ubiquity-bardinux-artwork-qt user-setup xfsprogs xresprobe" # linux-image-generic
+
+# $LH_PACKAGES_LISTS: set package list to install
+# (Default: standard)
+LH_PACKAGES_LISTS="none"
+
+# $LH_TASKS: set tasks to install
+# (Default: empty)
+LH_TASKS=""
+
+# $LH_SECURITY: enable security updates
+# (Default: true)
+LH_SECURITY="true"
+
+# $LH_VOLATILE: enable volatile updates
+# (Default: true)
+LH_VOLATILE="false"
+
+# $LH_SYMLINKS: enable symlink convertion
+# (Default: false)
+LH_SYMLINKS="false"
+
+# $LH_SYSVINIT: enable sysvinit
+# (Default: false)
+LH_SYSVINIT="false"

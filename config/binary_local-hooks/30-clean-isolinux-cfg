@@ -1,0 +1,8 @@
+#!/bin/bash
+
+HOOK_NAME=$(basename $0)
+echo "Executing local hook ${HOOK_NAME}..."
+
+rm -f binary/isolinux/menu.cfg binary/isolinux/live.cfg binary/isolinux/stdmenu.cfg binary/isolinux/prompt.cfg binary/isolinux/exithelp.cfg
+
+exit 0

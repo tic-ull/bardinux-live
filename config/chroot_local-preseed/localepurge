@@ -1,0 +1,8 @@
+debconf localepurge/remove_no note
+debconf localepurge/none_selected boolean false
+debconf localepurge/nopurge multiselect     es, es_ES, es_ES@euro, es_ES.UTF-8
+debconf localepurge/mandelete boolean true
+debconf localepurge/dontbothernew boolean false
+debconf localepurge/showfreedspace boolean true
+debconf localepurge/verbose boolean false
+debconf localepurge/quickndirtycalc boolean true

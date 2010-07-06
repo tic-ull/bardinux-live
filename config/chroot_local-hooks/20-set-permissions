@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#chmod 644 /etc/adjtime
+chmod 644 /etc/hosts
+chmod 644 /etc/kernel-img.conf
