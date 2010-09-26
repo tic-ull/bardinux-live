@@ -25,7 +25,7 @@ LH_APT_PIPELINE=""
 
 # $LH_APT_RECOMMENDS: set apt/aptitude recommends
 # (Default: true)
-LH_APT_RECOMMENDS="true"
+LH_APT_RECOMMENDS="false"
 
 # $LH_APT_SECURE: set apt/aptitude security
 # (Default: true)
