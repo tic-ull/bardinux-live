@@ -50,7 +50,7 @@ LH_MIRROR_BINARY_SECURITY="http://security.ubuntu.com/ubuntu/"
 
 # $LH_MIRROR_BINARY_VOLATILE: set volatile mirror which ends up in the image
 # (Default: http://volatile.debian.org/debian-volatile/)
-#LH_MIRROR_BINARY_VOLATILE="http://volatile.debian.org/debian-volatile/"
+LH_MIRROR_BINARY_VOLATILE="http://archive.ubuntu.com/ubuntu/"
 
 # $LH_MIRROR_DEBIAN_INSTALLER: set debian-installer mirror
 # (Default: http://ftp.de.debian.org/debian/)

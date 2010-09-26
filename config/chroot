@@ -63,7 +63,7 @@ LH_SECURITY="true"
 
 # $LH_VOLATILE: enable volatile updates
 # (Default: true)
-LH_VOLATILE="false"
+LH_VOLATILE="true"
 
 # $LH_SYMLINKS: enable symlink convertion
 # (Default: false)
