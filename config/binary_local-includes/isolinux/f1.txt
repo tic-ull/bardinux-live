@@ -1,13 +1,13 @@
                   0fWelcome to Bardinux!07                                          09F107
 
-This is a live system for Bardinux 2010.
+This is a live system for Bardinux 3.0 Beta3.
 
 0fHELP INDEX07
 
 0fKEY    TOPIC07
 
 <09F107>   This page, the help index.
-<09F207>   Prerequisites for running Ubuntu.
+<09F207>   Prerequisites for running Bardinux.
 <09F307>   Boot methods for special ways of using this system.
 <09F407>   Additional boot methods; rescuing a broken system.
 <09F507>   Special boot parameters, overview.

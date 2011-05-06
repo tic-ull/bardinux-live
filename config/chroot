@@ -42,12 +42,14 @@ LH_LINUX_PACKAGES="linux linux-image" #linux-restricted-modules linux-backports-
 
 # $LH_PACKAGES: set packages to install
 # (Default: empty)
-LH_PACKAGES="localepurge language-pack-es-base language-pack-gnome-es language-pack-es bardinux-desktop"
+#LH_PACKAGES="localepurge language-pack-es-base language-pack-gnome-es language-pack-es bardinux-desktop"
+LH_PACKAGES="bardinux-desktop bardinux-unattended-upgrades"
 
 # $LH_LIVE_PACKAGES: set live packages:
 # Packages not supposed to stay on an installed system
 # (Default: empty)
-LH_LIVE_PACKAGES="casper discover discover-data gparted jfsutils laptop-detect libdebconfclient0 libdebian-installer4 libdiscover2 libntfs10 localechooser-data ntfsprogs os-prober ubiquity ubiquity-casper ubiquity-frontend-kde ubiquity-bardinux-artwork-qt user-setup xfsprogs xresprobe" # linux-image-generic
+#LH_LIVE_PACKAGES="casper discover discover-data gparted jfsutils laptop-detect libdebconfclient0 libdebian-installer4 libdiscover2 libntfs10 localechooser-data ntfsprogs os-prober ubiquity ubiquity-casper ubiquity-frontend-kde ubiquity-bardinux-artwork-qt user-setup xfsprogs xresprobe" # linux-image-generic
+LH_LIVE_PACKAGES="casper discover groff-base jfsutils laptop-detect linux-image-generic localepurge ntfsprogs xfsprogs xresprobe command-not-found plymouth-theme-bardinux-logo bardinux-live-base bardinux-live ubiquity-frontend-kde ubiquity"
 
 # $LH_PACKAGES_LISTS: set package list to install
 # (Default: standard)

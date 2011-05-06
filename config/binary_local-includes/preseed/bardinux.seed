@@ -1,0 +1,6 @@
+# Individual additional packages to install
+ubiquity	ubiquity/success_command	string apt-install bardinux-first-start
+ubiquity	ubiquity/stepLanguage	boolean	false
+#ubiquity	ubiquity/stepLocation	boolean	false
+ubiquity	ubiquity/stepKeyboardConf	boolean	false
+
