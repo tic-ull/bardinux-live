@@ -63,7 +63,7 @@ LH_HOSTNAME="bardinux"
 
 # $LH_ISO_APPLICATION: set iso author
 # (Default: Debian Live)
-LH_ISO_APPLICATION="Bardinux 3.0 Beta3"
+LH_ISO_APPLICATION="Bardinux 3.0 RC1"
 
 # $LH_ISO_PREPARER: set iso preparer
 # (Default: live-helper $VERSION; http://packages.qa.debian.org/live-helper)
@@ -143,7 +143,7 @@ LH_SYSLINUX_MENU="menu"
 
 # $LH_SYSLINUX_MENU_LIVE_ENTRY: set text to be used on the menu for live entries
 # (Default: Live)
-LH_SYSLINUX_MENU_LIVE_ENTRY="Iniciar Bardinux 3.0 Beta3 Live"
+LH_SYSLINUX_MENU_LIVE_ENTRY="Iniciar Bardinux 3.0 RC1 Live"
 
 # $LH_SYSLINUX_MENU_LIVE_FAILSAFE_ENTRY: set text to be used on the menu for live entries (failsafe ones)
 # (Default: )

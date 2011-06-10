@@ -1,6 +1,6 @@
                   0fWelcome to Bardinux!07                                          09F107
 
-This is a live system for Bardinux 3.0 Beta3.
+This is a live system for Bardinux 3.0 RC1.
 
 0fHELP INDEX07
 

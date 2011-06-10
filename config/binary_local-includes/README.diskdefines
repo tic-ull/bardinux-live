@@ -1,4 +1,4 @@
-#define DISKNAME  Bardinux 3.0 "Lucid Lynx" - Release i386 (Beta3)
+#define DISKNAME  Bardinux 3.0 "Lucid Lynx" - Release i386 (RC1)
 #define TYPE  binary
 #define TYPEbinary  1
 #define ARCH  i386
