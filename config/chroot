@@ -43,7 +43,7 @@ LH_LINUX_PACKAGES="linux linux-image" #linux-restricted-modules linux-backports-
 # $LH_PACKAGES: set packages to install
 # (Default: empty)
 #LH_PACKAGES="localepurge language-pack-es-base language-pack-gnome-es language-pack-es bardinux-desktop"
-LH_PACKAGES="bardinux-desktop bardinux-unattended-upgrades"
+LH_PACKAGES="bardinux-desktop"
 
 # $LH_LIVE_PACKAGES: set live packages:
 # Packages not supposed to stay on an installed system
