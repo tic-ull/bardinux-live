@@ -3,9 +3,9 @@
 exit 0
 
 cat > /etc/apt/sources.list << EOF
-deb http://archive.ubuntu.com/ubuntu lucid main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu lucid-updates main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu lucid-security main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu lucid-backports main restricted universe multiverse
-deb http://archive.canonical.com/ubuntu lucid partner
+deb http://archive.ubuntu.com/ubuntu precise main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu precise-updates main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu precise-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu precise-backports main restricted universe multiverse
+deb http://archive.canonical.com/ubuntu precise partner
 EOF

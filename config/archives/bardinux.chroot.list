@@ -1,0 +1,2 @@
+deb http://archive.osl.ull.es/bardinux/ @DISTRIBUTION@ @ARCHIVE_AREAS@
+#deb http://ppa.launchpad.net/bardinux-members/ppa/ubuntu @DISTRIBUTION@ main

@@ -32714,7 +32714,7 @@
      inkscape:cx="636.46625"
      inkscape:cy="479.55327"
      inkscape:document-units="px"
-     inkscape:current-layer="g2190-2"
+     inkscape:current-layer="layer1"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1280"
@@ -32741,15 +32741,15 @@
      id="layer1"
      transform="translate(712.68732,529.80627)">
     <image
-       sodipodi:absref="/home/quique/src/bzr/bardinux-live/live-helper/gfxboot-cfg/splash.pcx"
+       sodipodi:absref="/home/quique/src/bzr/bardinux-live/gfxboot-cfg/splash.pcx"
        xlink:href="splash.pcx"
-       y="-529.80627"
-       x="-712.68732"
-       id="image7288"
+       width="1280"
        height="960"
-       width="1280" />
+       id="image7288"
+       x="-712.68732"
+       y="-529.80627" />
     <rect
-       style="fill:#492a52;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect6369"
        width="1280"
        height="960"

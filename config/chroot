@@ -1,76 +1,57 @@
-# config/chroot - options for live-helper(7), chroot stage
+# config/chroot - options for live-build(7), chroot stage
 
-# $LH_CHROOT_FILESYSTEM: set chroot filesystem
+# $LB_CHROOT_FILESYSTEM: set chroot filesystem
 # (Default: squashfs)
-LH_CHROOT_FILESYSTEM="squashfs"
+LB_CHROOT_FILESYSTEM="squashfs"
 
-# $LH_UNION_FILESYSTEM: set union filesystem
+# $LB_UNION_FILESYSTEM: set union filesystem
 # (Default: aufs)
-LH_UNION_FILESYSTEM="aufs"
+LB_UNION_FILESYSTEM="aufs"
 
-# $LH_VIRTUAL_ROOT_SIZE: set virtual-hdd filesystem size
+# $LB_VIRTUAL_ROOT_SIZE: set virtual-hdd filesystem size
 # (Default: 10000)
-LH_VIRTUAL_ROOT_SIZE="10000"
+LB_VIRTUAL_ROOT_SIZE="10000"
 
-# $LH_EXPOSED_ROOT: expose root as read only
+# $LB_EXPOSED_ROOT: expose root as read only
 # (Default: false)
-LH_EXPOSED_ROOT="false"
+LB_EXPOSED_ROOT="false"
 
-# $LH_HOOKS: set hook commands
+# $LB_HOOKS: set hook commands
 # (Default: empty)
-LH_HOOKS=""
+LB_HOOKS=""
 
-# $LH_INTERACTIVE: set interactive build
+# $LB_INTERACTIVE: set interactive build
 # (Default: false)
-LH_INTERACTIVE="false"
+LB_INTERACTIVE="false"
 
-# $LH_KEYRING_PACKAGES: set keyring packages
+# $LB_KEYRING_PACKAGES: set keyring packages
 # (Default: empty)
-LH_KEYRING_PACKAGES="bardinux-keyring medibuntu-keyring"
+LB_KEYRING_PACKAGES="ubuntu-keyring bardinux-keyring medibuntu-keyring"
 
-# $LH_LANGUAGE: set language to use
-# (Default: empty)
-# LH_LANGUAGE="es"
-
-# $LH_LINUX_FLAVOURS: set kernel flavour to use
+# $LB_LINUX_FLAVOURS: set kernel flavour to use
 # (Default: autodetected)
-LH_LINUX_FLAVOURS="generic"
+LB_LINUX_FLAVOURS="generic"
 
-# $LH_LINUX_PACKAGES: set kernel packages to use
+# $LB_LINUX_PACKAGES: set kernel packages to use
 # (Default: autodetected)
-LH_LINUX_PACKAGES="linux linux-image" #linux-restricted-modules linux-backports-modules-lucid"
+LB_LINUX_PACKAGES="linux"
 
-# $LH_PACKAGES: set packages to install
+# $LB_PACKAGE_LISTS: set package list to install
+# (Default: none)
+LB_PACKAGE_LISTS="none"
+
+# $LB_TASKS: set tasks to install
 # (Default: empty)
-#LH_PACKAGES="localepurge language-pack-es-base language-pack-gnome-es language-pack-es bardinux-desktop"
-LH_PACKAGES="bardinux-desktop"
+LB_TASKS=""
 
-# $LH_LIVE_PACKAGES: set live packages:
-# Packages not supposed to stay on an installed system
-# (Default: empty)
-#LH_LIVE_PACKAGES="casper discover discover-data gparted jfsutils laptop-detect libdebconfclient0 libdebian-installer4 libdiscover2 libntfs10 localechooser-data ntfsprogs os-prober ubiquity ubiquity-casper ubiquity-frontend-kde ubiquity-bardinux-artwork-qt user-setup xfsprogs xresprobe" # linux-image-generic
-LH_LIVE_PACKAGES="casper discover groff-base jfsutils laptop-detect linux-image-generic localepurge ntfsprogs xfsprogs xresprobe command-not-found plymouth-theme-bardinux-logo bardinux-live-base bardinux-live ubiquity-frontend-kde ubiquity"
-
-# $LH_PACKAGES_LISTS: set package list to install
-# (Default: standard)
-LH_PACKAGES_LISTS="none"
-
-# $LH_TASKS: set tasks to install
-# (Default: empty)
-LH_TASKS=""
-
-# $LH_SECURITY: enable security updates
+# $LB_SECURITY: enable security updates
 # (Default: true)
-LH_SECURITY="true"
+LB_SECURITY="true"
 
-# $LH_VOLATILE: enable volatile updates
-# (Default: true)
-LH_VOLATILE="true"
-
-# $LH_SYMLINKS: enable symlink convertion
+# $LB_VOLATILE: enable volatile updates
 # (Default: false)
-LH_SYMLINKS="false"
+LB_VOLATILE="true"
 
-# $LH_SYSVINIT: enable sysvinit
-# (Default: false)
-LH_SYSVINIT="false"
+# $LB_BACKPORTS: enable backports updates
+# (Default: )
+LB_BACKPORTS=""

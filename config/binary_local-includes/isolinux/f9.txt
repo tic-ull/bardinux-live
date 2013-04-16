@@ -1,7 +1,7 @@
 0fGETTING HELP07                                                                  09F907
 
-If you can't boot the Bardinux live system, don't despair! The Bardinux team
-is ready to help you! We are especially interested in hearing about startup
+If you can't install Bardinux, don't despair! The Bardinux team is ready to
+help you! We are especially interested in hearing about installation
 problems, because in general they don't happen to only 0fone07 person.
 We've either already heard about your particular problem and can dispense a
 quick fix, or we would like to hear about it and work through it with you,
