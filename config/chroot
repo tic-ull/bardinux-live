@@ -26,7 +26,7 @@ LB_INTERACTIVE="false"
 
 # $LB_KEYRING_PACKAGES: set keyring packages
 # (Default: empty)
-LB_KEYRING_PACKAGES="ubuntu-keyring bardinux-keyring medibuntu-keyring"
+LB_KEYRING_PACKAGES="ubuntu-keyring bardinux-keyring"
 
 # $LB_LINUX_FLAVOURS: set kernel flavour to use
 # (Default: autodetected)
